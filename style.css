@@ -1,0 +1,22 @@
+body{
+    background-color: lightyellow;
+}
+
+h1{
+    background-color: deepskyblue;
+    color: white
+    ;
+}
+
+th{
+    background-color: lightcyan;
+    color: darkblue;
+}
+
+td{
+    background-color: lightgrey;
+}
+
+i{
+    color: deeppink;
+}
