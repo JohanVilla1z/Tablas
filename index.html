@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>Tabla con las diferencias entre Git Local y Git Remoto</h1>
-    <table border="1">
+    <table border = "1">
         <tr>
             <th>Git Local</th>
             <th>Git Remoto</th>
@@ -17,16 +17,24 @@
             <td>
                 <li>Git local funciona alojado en nuestro computador sin conexion a internet</li>
                 <li>Es un sistema de control de versiones para proyectos propios</li>
+                <li>Puedes crear, modificar y confirmar cambios en tu repositorio local sin necesidad de conexión a Internet</li>
+                <li>Los cambios en el repositorio local no afectan a otros colaboradores hasta que los envíes al repositorio remoto</li>
+                <li>Los cambios realizados a los proyectos localmente se ven guardados inmediatamente</li>
 
             </td>
             <td>
                 <li>Git remoto funciona completamente alojado en la nube</li>
                 <li>Es una red social del código, una hoja de vida, para mostrar los repositorios</li>
+                <li>Puedes tener varios repositorios remotos, cada uno con diferentes permisos (lectura o lectura y escritura)</li>
+                <li>Colaborar con otros implica gestionar estos repositorios remotos, enviando y trayendo datos de ellos</li>
+                <li>Puedes ver las diferencias entre la versión local y la remota antes de fusionar cambios</li>
 
             </td>
         </tr>
     </table>
-    <h1>Descripcion de comandos basicos de Git Local y Remoto</h1>
+    <br><br>
+
+    <h1>Descripcion de comandos basicos de Git Remoto y Local</h1>
     <table border="1">
         <tr>
             <th>Comandos básicos de Git Remoto</th>
@@ -34,21 +42,25 @@
         </tr>
         <td>
             <li>git pages</li>
-            <li>git push</li>
-            <li>git pull</li>
+            <li>git push [rama]</li>
+            <li>git pull [rama]</li>
+            <li>git remote -v</li>
 
         </td>
         <td>
             <li>git init</li>
-            <li>git add .</li>
-            <li>git commit -m ""</li>
+            <li>git add [archivo]</li>
+            <li>git commit -m "mensaje"</li>
+            <li>git status</li>
+            <li>got log</li>
     
     </table>
     <script src=script.js>
 
     </script>
 </body>
-<br><br><br><hr>
+<br><br><br>
+<hr>
 
 <footer>
     <i>Johan Alberto Villa Osorio</i><br>
